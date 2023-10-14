@@ -1,0 +1,76 @@
+* {
+    list-style: none;
+}
+main {
+    padding: 1.5rem;
+}
+
+.container-map {
+    position: relative;
+    border: 1px solid grey;
+}
+#map {
+    height: 52rem;
+    width: 100%;
+}
+
+hr {
+    width: 95%;
+    color: #c4c2c2;
+}
+
+#list {
+    padding: 0;
+    overflow: auto;
+    height: 100%;
+}
+#list::-webkit-scrollbar {
+    width: 10px;
+}
+#list::-webkit-scrollbar-thumb {
+    background-color: #ae00b4;
+    border-radius: 3px;
+}
+
+#list li {
+    padding: 0.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+    gap: 0.3rem;
+}
+#list li span {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#list li:not(:first-child):hover {
+    background-color: #c4c2c2;
+    color: white;
+}
+#list li:first-child {
+    border-bottom: 1px solid grey;
+}
+
+.sidebar-map {
+    border: 0.2px solid rgb(201, 201, 201);
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    background-color: white;
+    height: 100%;
+    width: 15%;
+    box-shadow: -2px 0 4px #c4c2c2;
+}
+
+td {
+    border: 0.5px solid grey;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+.w-2 {
+    width: 1.5rem 0;
+}
