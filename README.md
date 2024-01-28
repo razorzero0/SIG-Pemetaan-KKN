@@ -39,3 +39,7 @@ php artisan storage:link
 php artisan serve
 
 Aplikasi  sekarang berjalan dan Anda dapat mengaksesnya melalui browser di alamat http://localhost:8000.
+
+### Auth
+username: superadmin
+password: 123
